@@ -1,0 +1,2 @@
+[console_scripts]
+audio_streamer = audio_streamer.audio_streamer:main

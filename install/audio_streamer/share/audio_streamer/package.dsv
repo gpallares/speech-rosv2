@@ -1,0 +1,6 @@
+source;share/audio_streamer/hook/pythonpath.ps1
+source;share/audio_streamer/hook/pythonpath.dsv
+source;share/audio_streamer/hook/pythonpath.sh
+source;share/audio_streamer/hook/ament_prefix_path.ps1
+source;share/audio_streamer/hook/ament_prefix_path.dsv
+source;share/audio_streamer/hook/ament_prefix_path.sh

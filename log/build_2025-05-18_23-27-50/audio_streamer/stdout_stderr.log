@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/audio_streamer/audio_streamer.egg-info
+writing ../../build/audio_streamer/audio_streamer.egg-info/PKG-INFO
+writing dependency_links to ../../build/audio_streamer/audio_streamer.egg-info/dependency_links.txt
+writing requirements to ../../build/audio_streamer/audio_streamer.egg-info/requires.txt
+writing top-level names to ../../build/audio_streamer/audio_streamer.egg-info/top_level.txt
+writing manifest file '../../build/audio_streamer/audio_streamer.egg-info/SOURCES.txt'
+reading manifest file '../../build/audio_streamer/audio_streamer.egg-info/SOURCES.txt'
+writing manifest file '../../build/audio_streamer/audio_streamer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/banjov2/speech-ros/build/audio_streamer/build
+creating /home/banjov2/speech-ros/build/audio_streamer/build/lib
+creating /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer
+copying audio_streamer/__init__.py -> /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer
+copying audio_streamer/audio_listener.py -> /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer
+copying audio_streamer/audiot_streamer.py -> /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer
+running install
+running install_lib
+creating /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer
+copying /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer/__init__.py -> /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer
+copying /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer/audio_listener.py -> /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer
+copying /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer/audiot_streamer.py -> /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer
+byte-compiling /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer/audio_listener.py to audio_listener.cpython-312.pyc
+byte-compiling /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer/audiot_streamer.py to audiot_streamer.cpython-312.pyc
+running install_data
+creating /home/banjov2/speech-ros/install/audio_streamer/share/ament_index
+creating /home/banjov2/speech-ros/install/audio_streamer/share/ament_index/resource_index
+creating /home/banjov2/speech-ros/install/audio_streamer/share/ament_index/resource_index/packages
+copying resource/audio_streamer -> /home/banjov2/speech-ros/install/audio_streamer/share/ament_index/resource_index/packages
+copying package.xml -> /home/banjov2/speech-ros/install/audio_streamer/share/audio_streamer
+running install_egg_info
+Copying ../../build/audio_streamer/audio_streamer.egg-info to /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/banjov2/speech-ros/build/audio_streamer/install.log'
