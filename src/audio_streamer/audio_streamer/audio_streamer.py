@@ -31,7 +31,7 @@ class AudioStreamer(Node):
             conn, addr = srv.accept()
             self.get_logger().info(f'Client connected from {addr}')
 
-            # Stream in chunks
+            # Stream in chunks 
             data = wf.readframes(self.chunk_size)
             while data:
                 conn.sendall(data)
