@@ -4,7 +4,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--host', default='127.0.0.1', help='Server IP address')
-parser.add_argument('--port', type=int, default=5000, help='Server port')
+parser.add_argument('--port', type=int, default=5001, help='Server port')
 parser.add_argument('--output', default='received.wav', help='Output WAV file')
 args = parser.parse_args()
 
@@ -22,7 +22,7 @@ s.connect((HOST, PORT))
 # For production, you could send a small JSON header first.
 
 # For simplicity, assume stereo, 16-bit, 44100 Hz:
-params = {'nchannels': 2, 'sampwidth': 2, 'framerate': 44100}
+params = {'nchannels': 1, 'sampwidth': 2, 'framerate': 16000}
 
 with wave.open(OUT_PATH, 'wb') as wf:
     wf.setnchannels(params['nchannels'])

@@ -1,1 +1,0 @@
-ros2 run audio_streamer audio_streamer   --ros-args   -p wav_path:=src/audio_streamer/audio_streamer/test2.wav   -p host:=127.0.0.1   -p port:=5000   -p chunk_size:=4096 
