@@ -1,0 +1,28 @@
+[1.131s] Invoking command in '/home/banjov2/speech-ros/src/audio_streamer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/banjov2/speech-ros/build/audio_streamer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/audio_streamer build --build-base /home/banjov2/speech-ros/build/audio_streamer/build install --record /home/banjov2/speech-ros/build/audio_streamer/install.log --single-version-externally-managed install_data
+[1.476s] running egg_info
+[1.498s] writing ../../build/audio_streamer/audio_streamer.egg-info/PKG-INFO
+[1.499s] writing dependency_links to ../../build/audio_streamer/audio_streamer.egg-info/dependency_links.txt
+[1.499s] writing entry points to ../../build/audio_streamer/audio_streamer.egg-info/entry_points.txt
+[1.499s] writing requirements to ../../build/audio_streamer/audio_streamer.egg-info/requires.txt
+[1.500s] writing top-level names to ../../build/audio_streamer/audio_streamer.egg-info/top_level.txt
+[1.557s] reading manifest file '../../build/audio_streamer/audio_streamer.egg-info/SOURCES.txt'
+[1.558s] writing manifest file '../../build/audio_streamer/audio_streamer.egg-info/SOURCES.txt'
+[1.558s] running build
+[1.558s] running build_py
+[1.559s] copying audio_streamer/audio_listener.py -> /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer
+[1.559s] copying audio_streamer/audio_streamer.py -> /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer
+[1.560s] running install
+[1.568s] running install_lib
+[1.592s] copying /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer/audio_listener.py -> /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer
+[1.592s] copying /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer/audio_streamer.py -> /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer
+[1.593s] byte-compiling /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer/audio_listener.py to audio_listener.cpython-312.pyc
+[1.594s] byte-compiling /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer/audio_streamer.py to audio_streamer.cpython-312.pyc
+[1.596s] running install_data
+[1.597s] running install_egg_info
+[1.629s] removing '/home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer-0.0.0-py3.12.egg-info' (and everything under it)
+[1.629s] Copying ../../build/audio_streamer/audio_streamer.egg-info to /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer-0.0.0-py3.12.egg-info
+[1.630s] running install_scripts
+[1.805s] Installing audio_streamer script to /home/banjov2/speech-ros/install/audio_streamer/lib/audio_streamer
+[1.806s] Installing recorder_tactigon script to /home/banjov2/speech-ros/install/audio_streamer/lib/audio_streamer
+[1.806s] writing list of installed files to '/home/banjov2/speech-ros/build/audio_streamer/install.log'
+[1.849s] Invoked command in '/home/banjov2/speech-ros/src/audio_streamer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/banjov2/speech-ros/build/audio_streamer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/audio_streamer build --build-base /home/banjov2/speech-ros/build/audio_streamer/build install --record /home/banjov2/speech-ros/build/audio_streamer/install.log --single-version-externally-managed install_data

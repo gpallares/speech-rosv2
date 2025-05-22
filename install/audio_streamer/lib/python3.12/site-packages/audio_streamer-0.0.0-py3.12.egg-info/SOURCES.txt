@@ -9,8 +9,14 @@ setup.py
 ../../build/audio_streamer/audio_streamer.egg-info/top_level.txt
 ../../build/audio_streamer/audio_streamer.egg-info/zip-safe
 audio_streamer/__init__.py
+audio_streamer/all-in-one.py
 audio_streamer/audio_listener.py
 audio_streamer/audio_streamer.py
+audio_streamer/audio_streamer_old.py
+audio_streamer/audio_streamerv2.py
+audio_streamer/recorder_tactigon.py
+audio_streamer/simple_recorder.py
+audio_streamer/tactigon_recorder.py
 resource/audio_streamer
 test/test_copyright.py
 test/test_flake8.py

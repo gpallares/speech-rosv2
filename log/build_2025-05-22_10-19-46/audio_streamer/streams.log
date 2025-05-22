@@ -1,0 +1,34 @@
+[1.171s] Invoking command in '/home/banjov2/speech-ros/src/audio_streamer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/banjov2/speech-ros/build/audio_streamer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/audio_streamer build --build-base /home/banjov2/speech-ros/build/audio_streamer/build install --record /home/banjov2/speech-ros/build/audio_streamer/install.log --single-version-externally-managed install_data
+[1.471s] running egg_info
+[1.490s] writing ../../build/audio_streamer/audio_streamer.egg-info/PKG-INFO
+[1.491s] writing dependency_links to ../../build/audio_streamer/audio_streamer.egg-info/dependency_links.txt
+[1.491s] writing entry points to ../../build/audio_streamer/audio_streamer.egg-info/entry_points.txt
+[1.491s] writing requirements to ../../build/audio_streamer/audio_streamer.egg-info/requires.txt
+[1.491s] writing top-level names to ../../build/audio_streamer/audio_streamer.egg-info/top_level.txt
+[1.546s] reading manifest file '../../build/audio_streamer/audio_streamer.egg-info/SOURCES.txt'
+[1.547s] writing manifest file '../../build/audio_streamer/audio_streamer.egg-info/SOURCES.txt'
+[1.547s] running build
+[1.547s] running build_py
+[1.547s] copying audio_streamer/audio_listener.py -> /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer
+[1.547s] copying audio_streamer/audio_streamer.py -> /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer
+[1.548s] copying audio_streamer/tactigon_recorder.py -> /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer
+[1.548s] copying audio_streamer/simple_recorder.py -> /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer
+[1.548s] running install
+[1.557s] running install_lib
+[1.578s] copying /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer/audio_listener.py -> /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer
+[1.578s] copying /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer/audio_streamer.py -> /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer
+[1.578s] copying /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer/tactigon_recorder.py -> /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer
+[1.578s] copying /home/banjov2/speech-ros/build/audio_streamer/build/lib/audio_streamer/simple_recorder.py -> /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer
+[1.579s] byte-compiling /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer/audio_listener.py to audio_listener.cpython-312.pyc
+[1.580s] byte-compiling /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer/audio_streamer.py to audio_streamer.cpython-312.pyc
+[1.581s] byte-compiling /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer/tactigon_recorder.py to tactigon_recorder.cpython-312.pyc
+[1.584s] byte-compiling /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer/simple_recorder.py to simple_recorder.cpython-312.pyc
+[1.585s] running install_data
+[1.585s] running install_egg_info
+[1.609s] removing '/home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer-0.0.0-py3.12.egg-info' (and everything under it)
+[1.609s] Copying ../../build/audio_streamer/audio_streamer.egg-info to /home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages/audio_streamer-0.0.0-py3.12.egg-info
+[1.612s] running install_scripts
+[1.776s] Installing audio_streamer script to /home/banjov2/speech-ros/install/audio_streamer/lib/audio_streamer
+[1.776s] Installing recorder_tactigon script to /home/banjov2/speech-ros/install/audio_streamer/lib/audio_streamer
+[1.777s] writing list of installed files to '/home/banjov2/speech-ros/build/audio_streamer/install.log'
+[1.801s] Invoked command in '/home/banjov2/speech-ros/src/audio_streamer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/banjov2/speech-ros/build/audio_streamer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/banjov2/speech-ros/install/audio_streamer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/audio_streamer build --build-base /home/banjov2/speech-ros/build/audio_streamer/build install --record /home/banjov2/speech-ros/build/audio_streamer/install.log --single-version-externally-managed install_data

@@ -22,6 +22,7 @@ setup(
     entry_points={
         'console_scripts': [
             'audio_streamer = audio_streamer.audio_streamer:main',
+            'recorder_tactigon = audio_streamer.recorder_tactigon:main',
         ],
     },
 )
