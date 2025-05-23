@@ -120,6 +120,30 @@ class TSkin_Audio(TSkin):
 
         logging.debug("[Audio] Cleare %i packet from pipe", i)
 
+def stream_wav(wav_path='test_audio.wav', host='0.0.0.0', port=5000, chunk_size=4096):
+    import socket
+    import wave
+
+    print(f"[Streamer] Streaming '{wav_path}' on {host}:{port} (chunk={chunk_size} bytes)")
+    
+    with wave.open(wav_path, 'rb') as wf:
+        srv = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        srv.bind((host, port))
+        srv.listen(1)
+        print('[Streamer] Waiting for client to connect...')
+        conn, addr = srv.accept()
+        print(f'[Streamer] Client connected from {addr}')
+
+        data = wf.readframes(chunk_size)
+        while data:
+            conn.sendall(data)
+            data = wf.readframes(chunk_size)
+
+        print('[Streamer] Streaming complete. Closing connection.')
+        conn.close()
+        srv.close()
+
+
 def test():
     model_folder = path.join(path.abspath("."), "data", "models", "MODEL_01_R")
 
@@ -170,6 +194,7 @@ def test():
 
             if touch == OneFingerGesture.SINGLE_TAP:
                 tskin.listen()
+                stream_wav()    # Stream it right after recording
                 time.sleep
 
 
